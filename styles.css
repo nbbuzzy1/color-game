@@ -81,9 +81,21 @@ button:hover {
   };
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   #container {
     margin-top: 10px;
+  }
+  #colorDisplay {
+    font-size: 100%;
+  }
+  #stripe {
+    display: flex;
+    justify-content: space-around;
+  }
+  #message {
+    display: flex;
+    text-align: center;
+    padding-top: 5px;
   }
 }
 
