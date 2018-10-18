@@ -91,13 +91,13 @@ button:hover {
   #stripe {
     display: flex;
     justify-content: space-around;
-    font-size: 66%;
+    font-size: 25%;
   }
   #message {
     display: flex;
     text-align: center;
     padding-top: 10px;
-    font-size: 66%
+    font-size: 25%
   }
 }
 
