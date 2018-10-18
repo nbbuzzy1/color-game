@@ -65,7 +65,7 @@ button:hover {
 
 #stripe {
 	background-color: white;
-	height: 30px;
+	/* height: 30px; */
 	text-align: center;
 }
 
@@ -87,17 +87,6 @@ button:hover {
   }
   #colorDisplay {
     font-size: 100%;
-  }
-  #stripe {
-    display: flex;
-    justify-content: center;
-    font-size: 50%;
-  }
-  #message {
-    display: flex;
-    text-align: center;
-    padding-top: 10px;
-    font-size: 50%
   }
 }
 
