@@ -83,7 +83,7 @@ button:hover {
   };
 }
 
-@media (max-width: 480px) {
+@media (max-width: 415px) {
   #container {
     margin-top: 10px;
   }
