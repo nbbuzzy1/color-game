@@ -1,48 +1,48 @@
 body {
-	background-color: #232323;
+  background-color: #232323;
+  font-family: 'Jura', sans-serif;
 	margin: 0;
-	font-family: 'Jura', sans-serif;
 }
 
 h1 {
-	color: white;
+  background-color: steelblue;
+  color: white;
+  font-weight: normal;
+  line-height: 1.1;
+  margin: 0;
+  padding: 20px 0;
 	text-align: center;
-	line-height: 1.1;
-	font-weight: normal;
-	background-color: steelblue;
-	margin: 0;
 	text-transform: uppercase;
-	padding: 20px 0;
 }
 
 button {
-	border:none;
-	background: none;
-	text-transform: uppercase;
-	height: 100%;
-	font-weight: 700;
-	color: steelblue;
-	letter-spacing: 1px;
-	font-size: inherit;
-	transition: all 0.3s;
-	outline: none;
-	font-family: 'Jura', sans-serif;
+  background: none;
+  border: none;
+  color: steelblue;
+  font-family: 'Jura', sans-serif;
+  font-size: inherit;
+  font-weight: 700;
+  height: 100%;
+  letter-spacing: 1px;
+  outline: none;
+  text-transform: uppercase;
+  transition: all 0.3s;
 }
 
 button:hover {
+  background: steelblue;
 	color: white;
-	background: steelblue;
 }
 
 .square {
-  width: 20%;
-  padding-top: 20%;
+  border-radius: 15%;
+  margin: 1.66%;
   max-width: 200px;
-	margin: 1.66%;
-	border-radius: 15%;
-	transition: background 0.6s;
+  padding-top: 20%;
+  transition: background 0.6s;
 	--webkit-transition: background 0.6s;
 	--moz-transition: background 0.6s;
+  width: 20%;
 }
 
 .selected {
@@ -51,12 +51,12 @@ button:hover {
 }
 
 #container {
-  margin-top: 20px;
+  align-content: space-between;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-content: space-between;
+  margin-top: 20px;
 }
 
 #colorDisplay {
@@ -64,11 +64,10 @@ button:hover {
 }
 
 #stripe {
+  align-items: center;
+  background-color: white;
   display:flex;
   justify-content:center;
-  align-items: center;
-  
-  background-color: white;
 }
 
 #message {
